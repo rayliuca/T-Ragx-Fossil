@@ -1,0 +1,5 @@
+FROM elasticsearch:7.17.16
+
+RUN elasticsearch-plugin install repository-s3
+RUN elasticsearch-plugin install analysis-smartcn
+RUN elasticsearch-plugin install analysis-kuromoji

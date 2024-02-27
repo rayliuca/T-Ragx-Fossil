@@ -1,0 +1,5 @@
+plugins:
+  - id: repository-s3
+  - id: analysis-icu
+  - id: analysis-kuromoji
+  - id: analysis-smartcn
