@@ -103,5 +103,5 @@ discovery.type: single-node
 xpack.security.enabled: true
 xpack.security.authc:
   anonymous:
-    roles: viewer 
+    roles: viewer, monitoring_user
     authz_exception: true 
