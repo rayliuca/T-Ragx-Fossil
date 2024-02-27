@@ -6,6 +6,7 @@ services:
     #   context: .
     #   dockerfile: Dockerfile-elastic
     container_name: elasticsearch
+    user: 1001:1001
     group_add:
       - 0
     ports:
@@ -33,6 +34,7 @@ services:
     image: kibana:7.17.16
     restart: on-failure
     container_name: kibana
+    user: 1001:1001
     group_add:
       - 0
     environment:
