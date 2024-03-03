@@ -30,5 +30,5 @@ If there's error:
   
 run:
 ```
-rm ~/elk_data/elasticsearch/plugins.elasticsearch-plugins.yml.cache
+rm ~/elk_data/elasticsearch/plugins/.elasticsearch-plugins.yml.cache
 ```
