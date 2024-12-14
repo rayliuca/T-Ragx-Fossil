@@ -96,7 +96,7 @@
 # https://www.elastic.co/guide/en/elasticsearch/reference/7.16/configuring-stack-security.html
 
 network.host: 0.0.0.0
-s3.client.default.endpoint: o3t0.or.idrivee2-37.com
+s3.client.default.endpoint: s3.us-west-004.backblazeb2.com 
 
 discovery.type: single-node
 
